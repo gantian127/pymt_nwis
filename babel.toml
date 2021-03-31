@@ -22,7 +22,7 @@ github_username = "gantian127"
 package_author = "Tian Gan"
 package_author_email = "gantian127@gmail.com"
 package_license = "MIT"
-summary = "PyMT plugin for National Water Model data"
+summary = "PyMT plugin for National Water Information System datasets"
 
 [ci]
 python_version = ["3.8"]
