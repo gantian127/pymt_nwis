@@ -1,44 +1,27 @@
-=========
+==============
 pymt_nwis
-=========
+==============
 
 
 .. image:: https://img.shields.io/badge/CSDMS-Basic%20Model%20Interface-green.svg
         :target: https://bmi.readthedocs.io/
         :alt: Basic Model Interface
 
-.. image:: https://img.shields.io/badge/recipe-pymt_nwis-green.svg
+.. .. image:: https://img.shields.io/badge/recipe-pymt_nwis-green.svg
         :target: https://anaconda.org/conda-forge/pymt_nwis
 
 .. image:: https://readthedocs.org/projects/pymt-nwis/badge/?version=latest
         :target: https://pymt-nwis.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://github.com/gantian127/pymt_nwis/actions/workflows/test.yml/badge.svg
-        :target: https://github.com/gantian127/pymt_nwis/actions/workflows/test.yml
-
-.. image:: https://github.com/gantian127/pymt_nwis/actions/workflows/flake8.yml/badge.svg
-        :target: https://github.com/gantian127/pymt_nwis/actions/workflows/flake8.yml
-
-.. image:: https://github.com/gantian127/pymt_nwis/actions/workflows/black.yml/badge.svg
-        :target: https://github.com/gantian127/pymt_nwis/actions/workflows/black.yml
+.. image:: https://img.shields.io/badge/License-MIT-blue.svg
+        :target: hhttps://github.com/gantian127/pymt_nwis/blob/master/LICENSE
 
 
-PyMT plugin for National Water Model data
-
-
-* Free software: MIT License
-* Documentation: https://pymt-nwis.readthedocs.io.
-
-
-
-
-========= ===================================
-Component PyMT
-========= ===================================
-
-Nwis      `from pymt.models import Nwis`
-========= ===================================
+pymt_nwis is a package that converts `nwis package <https://github.com/gantian127/nwis>`_ into a reusable,
+plug-and-play data component for `PyMT <https://pymt.readthedocs.io/en/latest/?badge=latest>`_ modeling framework.
+This allows the National Water Information System data to be easily coupled with other data or models that expose
+a `Basic Model Interface <https://bmi.readthedocs.io/en/latest/>`_.
 
 ---------------
 Installing pymt
@@ -81,4 +64,4 @@ To install `pymt_nwis`,
 
 .. code::
 
-  conda install pymt_nwis
+  pip install pymt_nwis
