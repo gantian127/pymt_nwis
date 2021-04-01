@@ -17,19 +17,19 @@ start_date:
   description: The start date of the time series dataset.
   value:
     type: string
-    default: '2020-01-01'
+    default: "2020-01-01"
     units: 1
 end_date:
   name: End date
   description: The end date of the time series dataset.
   value:
     type: string
-    default: '2020-01-15'
+    default: "2020-01-15"
     units: 1
 nc_output:
   name: NetCDF file output
   description: The file path of the NetCDF file to store the time series data.
   value:
     type: string
-    default: ''
+    default: demo.nc
     units: 1
