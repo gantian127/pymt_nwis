@@ -18,9 +18,9 @@ pymt_nwis
         :target: hhttps://github.com/gantian127/pymt_nwis/blob/master/LICENSE
 
 
-pymt_nwis is a package that converts `nwis package <https://github.com/gantian127/nwis>`_ into a reusable,
+pymt_nwis is a package that converts `bmi_nwis package <https://github.com/gantian127/bmi_nwis>`_ into a reusable,
 plug-and-play data component for `PyMT <https://pymt.readthedocs.io/en/latest/?badge=latest>`_ modeling framework.
-This allows the National Water Information System data to be easily coupled with other data or models that expose
+This allows the National Water Information System (`NWIS <https://waterdata.usgs.gov/nwis>`_) data to be easily coupled with other data or models that expose
 a `Basic Model Interface <https://bmi.readthedocs.io/en/latest/>`_.
 
 ---------------
@@ -65,3 +65,10 @@ To install `pymt_nwis`,
 .. code::
 
   pip install pymt_nwis
+
+--------------------
+Coding Example
+--------------------
+
+You can learn more details about the coding example from the
+`tutorial notebook <https://github.com/gantian127/pymt_nwis/blob/master/notebooks/pymt_nwis.ipynb>`_.
