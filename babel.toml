@@ -1,7 +1,7 @@
 [library]
 [library.Nwis]
 language = "python"
-library = "nwis"
+library = "bmi_nwis"
 header = ""
 entry_point = "BmiNwis"
 
