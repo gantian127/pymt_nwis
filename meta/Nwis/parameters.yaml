@@ -1,32 +1,39 @@
-site:
-  name: Site
+sites:
+  name: Site code
   description: The Identifier of the USGS Gauge Site
   value:
     type: string
     default: 03339000
     units: 1
-data_type:
-  name: Data type
-  description: The data type of the download datasets.
+service:
+  name: Service type
+  description: The service type of the download datasets. Options include 'dv'(daily mean value) and 'iv' (instantaneous value)
   value:
     type: string
-    default: dv
+    default: iv
     units: 1
-start_date:
+start:
   name: Start date
   description: The start date of the time series dataset.
   value:
     type: string
-    default: "2020-01-01"
+    default: "2022-01-01"
     units: 1
-end_date:
+end:
   name: End date
   description: The end date of the time series dataset.
   value:
     type: string
-    default: "2020-01-15"
+    default: "2022-01-3"
     units: 1
-nc_output:
+parameterCd:
+  name: Parameter Code
+  description: The identifier representing a variable for the time series data.
+  value:
+    type: string
+    default: 00060
+    units: 1
+output:
   name: NetCDF file output
   description: The file path of the NetCDF file to store the time series data.
   value:
