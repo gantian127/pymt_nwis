@@ -3,7 +3,7 @@ sites:
   description: The Identifier of the USGS Gauge Site
   value:
     type: string
-    default: 03339000
+    default: '03339000'
     units: 1
 service:
   name: Service type
@@ -31,7 +31,7 @@ parameterCd:
   description: The identifier representing a variable for the time series data.
   value:
     type: string
-    default: 00060
+    default: '00060'
     units: 1
 output:
   name: NetCDF file output
