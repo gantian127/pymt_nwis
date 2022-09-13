@@ -1,2 +1,2 @@
 numpy
-nwis
+bmi_nwis
