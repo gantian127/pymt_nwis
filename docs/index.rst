@@ -67,7 +67,7 @@ You can learn more details about the coding example from the
     time_units = data_comp.time_units
     time_steps = int((end_time - start_time)/time_step) + 1
 
-    print('start_time: {} \nend_time: {} \ntime_step: {} \ntime_units: {} \ntime_steps: {}'.format(
+    print('start_time: {} \nend_time: {} \ntime_step: {} \ntime_units: {} \ntime_steps: {} \n'.format(
         start_time, end_time, time_step, time_units, time_steps))
 
     # get variable grid info
