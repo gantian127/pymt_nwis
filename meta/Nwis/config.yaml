@@ -1,6 +1,7 @@
 bmi-nwis:
-  site: {{site}}
-  start_date: {{start_date}}
-  end_date: {{end_date}}
-  data_type: {{data_type}}
-  nc_output: {{nc_output}}
+  sites: {{sites}}
+  service: {{service}}
+  start: {{start}}
+  end: {{end}}
+  parameterCd: {{parameterCd}}
+  output: {{output}}

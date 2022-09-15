@@ -27,7 +27,7 @@ setup(
     author_email="gantian127@gmail.com",
     description="PyMT plugin for pymt_nwis",
     long_description=long_description,
-    version="0.1.0",
+    version="0.2.0",
     url="https://github.com/gantian127/pymt_nwis",
     classifiers=[
         "Development Status :: 4 - Beta",
