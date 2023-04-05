@@ -60,11 +60,18 @@ Installing pymt_nwis
 
 
 
-To install `pymt_nwis`,
+To install `pymt_nwis`, use pip
 
 .. code::
 
   pip install pymt_nwis
+  
+  
+or conda
+
+.. code::
+
+  conda install -c conda-forge pymt_nwis
 
 --------------------
 Coding Example
