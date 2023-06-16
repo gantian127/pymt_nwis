@@ -2,7 +2,7 @@
     :align: center
     :scale: 35%
     :alt: pymt_nwis
-    :target: https://pymt_nwis.readthedocs.io/
+    :target: https://pymt-nwis.readthedocs.io/en/latest/
 
 
 `pymt_nwis <https://github.com/gantian127/pymt_nwis>`_ converts `bmi_nwis <https://bmi_nwis.readthedocs.io/en/latest/?badge=latest>`_ into a reusable,
