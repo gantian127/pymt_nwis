@@ -5,7 +5,7 @@
     :target: https://pymt_nwis.readthedocs.io/
 
 
-pymt_nwis converts `bmi_nwis <https://bmi_nwis.readthedocs.io/en/latest/?badge=latest>`_ into a reusable,
+`pymt_nwis <https://github.com/gantian127/pymt_nwis>`_ converts `bmi_nwis <https://bmi_nwis.readthedocs.io/en/latest/?badge=latest>`_ into a reusable,
 plug-and-play data component for `PyMT <https://pymt.readthedocs.io/en/latest/?badge=latest>`_ modeling framework.
 pymt_nwis allows the National Water Information System data to be easily coupled with other data or models that expose
 a `Basic Model Interface <https://bmi.readthedocs.io/en/latest/>`_.
@@ -29,6 +29,11 @@ Install the pymt_nwis using pip:
 
   $ pip install pymt_nwis
 
+or conda
+
+.. code::
+
+  $ conda install -c conda-forge pymt_nwis
 
 Coding Example
 --------------
@@ -104,6 +109,7 @@ You can learn more details about the coding example from the
     ax[0].set_ylabel('Stream flow (ft3/s)')
     ax[1].set_ylabel('Gage height (ft)')
 
+    # finalize the data component
     data_comp.finalize()
 
 
