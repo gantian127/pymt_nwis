@@ -153,7 +153,7 @@ texinfo_documents = [
         author,
         "pymt_nwis",
         "One line description of project.",
-        "Miscellaneous"
+        "Miscellaneous",
      ),
 ]
 
