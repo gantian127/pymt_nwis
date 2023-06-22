@@ -154,8 +154,5 @@ texinfo_documents = [
         "pymt_nwis",
         "One line description of project.",
         "Miscellaneous",
-     ),
+    ),
 ]
-
-
-
