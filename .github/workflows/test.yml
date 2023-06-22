@@ -53,4 +53,5 @@ jobs:
       - name: Test
         run: |
           python -c 'import pymt_nwis'
-          bmi-test pymt_nwis.bmi:Nwis -vvv
+          
+# future test to add: bmi-test pymt_nwis.bmi:Nwis -vvv
