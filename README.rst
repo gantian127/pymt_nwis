@@ -2,6 +2,8 @@
 pymt_nwis
 ==============
 
+.. image:: https://zenodo.org/badge/353523375.svg
+  :target: https://zenodo.org/doi/10.5281/zenodo.10368875
 
 .. image:: https://img.shields.io/badge/CSDMS-Basic%20Model%20Interface-green.svg
         :target: https://bmi.readthedocs.io/
