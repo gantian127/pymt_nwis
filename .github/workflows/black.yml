@@ -13,9 +13,17 @@ jobs:
       github.repository
 
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-      - uses: psf/black@stable
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          args: ". --check"
+          python-version: "3.12"
+
+      - name: Run Black
+        uses: psf/black@stable
+        with:
+          args: ". --check --diff"
