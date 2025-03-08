@@ -1,8 +1,5 @@
 #! /usr/bin/env python
-import os
-import sys
-
-from setuptools import Extension, find_packages, setup
+from setuptools import find_packages, setup
 
 entry_points = {
     "pymt.plugins": [
@@ -27,7 +24,7 @@ setup(
     author_email="gantian127@gmail.com",
     description="PyMT plugin for pymt_nwis",
     long_description=long_description,
-    version="0.2.0",
+    version="0.2.1",
     url="https://github.com/gantian127/pymt_nwis",
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -35,8 +32,11 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: POSIX :: Linux",
-        "Programming Language :: Python :: 3 :: Only",
-        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
     ],
     keywords=["bmi", "pymt"],
     install_requires=open("requirements.txt", "r").read().splitlines(),
